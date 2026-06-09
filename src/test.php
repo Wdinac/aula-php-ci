@@ -12,11 +12,10 @@ assert_options(ASSERT_CALLBACK, function($file, $line, $code, $desc = null) {
 require_once __DIR__ . '/Calculator.php';
 
 try {
-    $exceptionCaught = true;
     // -------- TESTES DE SOMA --------
     assert(
-        Calculator::soma(2, 3) === 99,
-        'soma(2, 3) deve retornar 99'
+        Calculator::soma(2, 3) === 123,
+        'Falha Proposital'
     );
 
     assert(
@@ -53,7 +52,7 @@ try {
     );
 
     // -------- TESTE DE ERRO (DIVISÃO POR ZERO) --------
-    
+    $exceptionCaught = false;
 
     try {
         Calculator::divide(10, 0);
