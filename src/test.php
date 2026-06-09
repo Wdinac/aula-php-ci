@@ -1,3 +1,4 @@
+- run: php -d zend.assertions=1 -d assert.exception=1 src/test.php
 <?php
 // Garante que asserts estão ativos
 assert_options(ASSERT_ACTIVE,   1);
