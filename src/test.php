@@ -14,8 +14,8 @@ require_once __DIR__ . '/Calculator.php';
 try {
     // -------- TESTES DE SOMA --------
     assert(
-        Calculator::soma(2, 3) === 123,
-        'Falha Proposital'
+        Calculator::soma(2, 3) === 5,
+        'soma(2, 3) deve retornar 99'
     );
 
     assert(
