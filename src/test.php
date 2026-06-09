@@ -16,7 +16,7 @@ try {
     assert(
         Calculator::soma(2, 3) === 99,
         'soma(2, 3) deve retornar 99'
-        echo "PASSOU PELO ASSERT"
+        echo "PASSOU PELO ASSERT";
     );
 
     assert(
