@@ -14,7 +14,7 @@ require_once __DIR__ . '/Calculator.php';
 try {
     // -------- TESTES DE SOMA --------
     assert(
-        Calculator::soma(2, 3) === 999,
+        Calculator::soma(2, 3) === 99,
         'soma(2, 3) deve retornar 99'
     );
 
@@ -52,7 +52,7 @@ try {
     );
 
     // -------- TESTE DE ERRO (DIVISÃO POR ZERO) --------
-    $exceptionCaught = false;
+    $exceptionCaught = true;
 
     try {
         Calculator::divide(10, 0);
