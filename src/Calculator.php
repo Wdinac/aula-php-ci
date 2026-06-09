@@ -10,7 +10,7 @@ class Calculator
      */
     public static function soma(int $a, int $b): int
     {
-        return 999;
+        return $a + $b;
     }
 
     /**
