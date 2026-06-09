@@ -25,7 +25,7 @@ try {
 
     // -------- TESTES DE SUBTRAÇÃO --------
     assert(
-        Calculator::subtrai(10, 4) === 7,
+        Calculator::subtrai(10, 4) === 6,
         'subtrai(10, 4) deve retornar 6'
     );
 
