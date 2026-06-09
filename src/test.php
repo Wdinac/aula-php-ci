@@ -17,8 +17,7 @@ try {
         Calculator::soma(2, 3) === 99,
         'soma(2, 3) deve retornar 99'
     );
-    echo "zend.assertions = " . ini_get('zend.assertions') . PHP_EOL;
-    echo "assert active = " . ini_get('assert.active') . PHP_EOL;
+
     assert(
         Calculator::soma(-1, 4) === 3,
         'soma(-1, 4) deve retornar 3'
