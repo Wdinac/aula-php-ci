@@ -12,7 +12,6 @@ assert_options(ASSERT_CALLBACK, function($file, $line, $code, $desc = null) {
 require_once __DIR__ . '/Calculator.php';
 
 try {
-    throw new Exception('Falha proposital para testar o GitHub Actions');
     // -------- TESTES DE SOMA --------
     assert(
         Calculator::soma(2, 3) === 99,
